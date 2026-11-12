@@ -3,6 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@kyle2241345145351324321/dsh-agent-memory.svg?style=flat-square)](https://www.npmjs.com/package/@kyle2241345145351324321/dsh-agent-memory)
 [![license](https://img.shields.io/npm/l/@kyle2241345145351324321/dsh-agent-memory.svg?style=flat-square)](LICENSE)
 [![tests](https://img.shields.io/badge/tests-node%20--test-0e7490?style=flat-square)](test)
+[![GitHub](https://img.shields.io/badge/github-repo-181717?style=flat-square&logo=github)](https://github.com/kyle2241345145351324321/dsh-agent-memory)
 [![DSH](https://img.shields.io/badge/dsh-plugin-4d6bfe?style=flat-square)](https://github.com/deepseek-ai/deepseek-harness)
 
 **給 DeepSeek Harness agent 的長期記憶。** 像 Claude 的記憶一樣：agent 自己把值得記住的事存起來，你在
