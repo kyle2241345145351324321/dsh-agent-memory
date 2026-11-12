@@ -1,5 +1,5 @@
 {
-  "name": "@kyle2241345145351324321/dsh-agent-memory",
+  "name": "@kylefu/dsh-agent-memory",
   "version": "0.1.0",
   "description": "Durable agent memory for DeepSeek Harness \u2014 global facts about you plus per-project memory, saved by the agent and fully visible/editable in Settings \u2192 Memory.",
   "type": "module",

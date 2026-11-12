@@ -3,4 +3,4 @@
 # is served from /plugins/dsh-agent-memory/client.js.
 - insert:
     - id: dsh-agent-memory
-      name: '@kyle2241345145351324321/dsh-agent-memory'
+      name: '@kylefu/dsh-agent-memory'

@@ -1,6 +1,6 @@
 # 發佈手冊（npm + DSH Plugin Hub）
 
-套件名稱：`@kyle2241345145351324321/dsh-agent-memory`
+套件名稱：`@kylefu/dsh-agent-memory`
 GitHub：`https://github.com/kyle2241345145351324321/dsh-agent-memory`
 分類（Hub）：`memory`
 
@@ -20,7 +20,7 @@ git status               # 確認沒有漏 commit
 ```sh
 npm login                # 用帳號 kyle2241345145351324321 登入（只需一次）
 npm publish              # 或 npm publish --dry-run 先看會上傳什麼
-npm view @kyle2241345145351324321/dsh-agent-memory version
+npm view @kylefu/dsh-agent-memory version
 ```
 
 之後升版流程：
@@ -38,7 +38,7 @@ npm publish
 在乾淨的 profile（或自己的）安裝：
 
 ```sh
-dsh plugin --profile web add @kyle2241345145351324321/dsh-agent-memory
+dsh plugin --profile web add @kylefu/dsh-agent-memory
 ```
 
 外掛宣告了 `dsh.bundle.patch`，安裝時會自動把 loader row 插進 profile；Host 端程式碼需要
@@ -68,11 +68,11 @@ git tag v0.1.0 && git push --tags
 | 欄位 | 值 |
 | --- | --- |
 | 名稱 | `dsh-agent-memory` |
-| npm 套件 | `@kyle2241345145351324321/dsh-agent-memory` |
+| npm 套件 | `@kylefu/dsh-agent-memory` |
 | GitHub repo | `kyle2241345145351324321/dsh-agent-memory` |
 | 分類 | `memory` |
 | 一句話 | Durable agent memory for DeepSeek Harness: global + per-project memories, written by the agent and fully editable in Settings → Memory. |
-| 安裝指令 | `dsh plugin --profile web add @kyle2241345145351324321/dsh-agent-memory` |
+| 安裝指令 | `dsh plugin --profile web add @kylefu/dsh-agent-memory` |
 | GitHub 安裝 | `dsh plugin --profile web add github:kyle2241345145351324321/dsh-agent-memory` |
 | 標籤 | `dsh`, `dsh-plugin`, `deepseek-harness`, `memory`, `agent-memory`, `claude`, `persistent-memory` |
 | 特色 | Global memory across projects · Per-project memory in the repo · Agent `memory` tool · Settings → Memory CRUD UI · Plain JSON, no cloud |
@@ -96,7 +96,7 @@ git tag v0.1.0 && git push --tags
 {
   "s": "dsh-agent-memory",
   "o": "kyle2241345145351324321",
-  "n": "@kyle2241345145351324321/dsh-agent-memory",
+  "n": "@kylefu/dsh-agent-memory",
   "vr": "v0.1.0",
   "c": "memory",
   "t": ["dsh", "dsh-plugin", "deepseek-harness", "memory", "agent-memory", "claude", "persistent-memory"],
@@ -108,8 +108,8 @@ git tag v0.1.0 && git push --tags
     "Plain JSON, hand-editable, no cloud"
   ],
   "d": "Durable agent memory for DeepSeek Harness — global facts about you plus per-project memory, saved by the agent and fully visible/editable in Settings → Memory.",
-  "r": { "repo": "kyle2241345145351324321/dsh-agent-memory", "npmPackage": "@kyle2241345145351324321/dsh-agent-memory" },
-  "ic": "dsh plugin --profile web add @kyle2241345145351324321/dsh-agent-memory",
+  "r": { "repo": "kyle2241345145351324321/dsh-agent-memory", "npmPackage": "@kylefu/dsh-agent-memory" },
+  "ic": "dsh plugin --profile web add @kylefu/dsh-agent-memory",
   "igc": "dsh plugin --profile web add github:kyle2241345145351324321/dsh-agent-memory"
 }
 ```

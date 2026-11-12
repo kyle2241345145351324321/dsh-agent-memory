@@ -1,7 +1,7 @@
 # dsh-agent-memory
 
-[![npm](https://img.shields.io/npm/v/@kyle2241345145351324321/dsh-agent-memory.svg?style=flat-square)](https://www.npmjs.com/package/@kyle2241345145351324321/dsh-agent-memory)
-[![license](https://img.shields.io/npm/l/@kyle2241345145351324321/dsh-agent-memory.svg?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@kylefu/dsh-agent-memory.svg?style=flat-square)](https://www.npmjs.com/package/@kylefu/dsh-agent-memory)
+[![license](https://img.shields.io/npm/l/@kylefu/dsh-agent-memory.svg?style=flat-square)](LICENSE)
 [![tests](https://img.shields.io/badge/tests-node%20--test-0e7490?style=flat-square)](test)
 [![GitHub](https://img.shields.io/badge/github-repo-181717?style=flat-square&logo=github)](https://github.com/kyle2241345145351324321/dsh-agent-memory)
 [![DSH](https://img.shields.io/badge/dsh-plugin-4d6bfe?style=flat-square)](https://github.com/deepseek-ai/deepseek-harness)
@@ -21,7 +21,7 @@
 從 npm 安裝（會自動把 loader row 插進 profile）：
 
 ```sh
-dsh plugin --profile web add @kyle2241345145351324321/dsh-agent-memory
+dsh plugin --profile web add @kylefu/dsh-agent-memory
 ```
 
 或直接從 GitHub 安裝（尚未發佈時）：
@@ -147,7 +147,7 @@ client bundle 契約（id / NS / settings.section 註冊）。
 
 ## 發佈 / Plugin Hub
 
-套件已可發佈：`@kyle2241345145351324321/dsh-agent-memory`（scoped、public），分類 `memory`。
+套件已可發佈：`@kylefu/dsh-agent-memory`（scoped、public），分類 `memory`。
 npm 發佈、GitHub repo、Plugin Hub 送審的完整步驟見 [PUBLISHING.md](PUBLISHING.md)；
 版本紀錄見 [CHANGELOG.md](CHANGELOG.md)。
 
@@ -173,7 +173,7 @@ dsh plugin --profile web remove dsh-agent-memory
 
 ## English
 
-`@kyle2241345145351324321/dsh-agent-memory` — durable memory for DeepSeek Harness agents, in the spirit
+`@kylefu/dsh-agent-memory` — durable memory for DeepSeek Harness agents, in the spirit
 of Claude's memory feature.
 
 - **Global memory** — stable facts and preferences about the user, shared by every session. Stored at
@@ -188,7 +188,7 @@ of Claude's memory feature.
 Install:
 
 ```sh
-dsh plugin --profile web add @kyle2241345145351324321/dsh-agent-memory
+dsh plugin --profile web add @kylefu/dsh-agent-memory
 # restart dsh web once; then refresh the browser page
 ```
 
