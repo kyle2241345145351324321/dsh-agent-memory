@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Agent memory">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2337"/>
+      <stop offset="1" stop-color="#0d1120"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8aa2ff"/>
+      <stop offset="1" stop-color="#4d6bfe"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+  <rect x="5" y="5" width="118" height="118" rx="27" fill="none" stroke="#4d6bfe" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M91 27H77a6 6 0 0 0-6 6v43l10-7 10 7V33a6 6 0 0 0-6-6z" fill="url(#ink)" opacity=".95"/>
+  <circle cx="34" cy="43" r="6" fill="url(#ink)"/>
+  <rect x="48" y="39" width="26" height="8" rx="4" fill="#8aa2ff" opacity=".55"/>
+  <circle cx="34" cy="65" r="6" fill="url(#ink)" opacity=".78"/>
+  <rect x="48" y="61" width="20" height="8" rx="4" fill="#8aa2ff" opacity=".4"/>
+  <circle cx="34" cy="87" r="6" fill="url(#ink)" opacity=".55"/>
+  <rect x="48" y="83" width="14" height="8" rx="4" fill="#8aa2ff" opacity=".28"/>
+</svg>

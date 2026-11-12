@@ -1,0 +1,70 @@
+{
+  "name": "@kyle2241345145351324321/dsh-agent-memory",
+  "version": "0.1.0",
+  "description": "Durable agent memory for DeepSeek Harness \u2014 global facts about you plus per-project memory, saved by the agent and fully visible/editable in Settings \u2192 Memory.",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6",
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "agent-memory",
+    "claude",
+    "persistent-memory"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "pack:dry": "npm pack --dry-run",
+    "publish:dry": "npm publish --dry-run"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "PUBLISHING.md",
+    "DESIGN.md",
+    "icon.svg",
+    "preview"
+  ],
+  "author": "kyle fu",
+  "icon": "icon.svg",
+  "homepage": "https://github.com/kyle2241345145351324321/dsh-agent-memory",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle2241345145351324321/dsh-agent-memory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyle2241345145351324321/dsh-agent-memory/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,6 @@
+# dsh-agent-memory bundle patch: inserts the memory plugin into a profile's
+# layer stack. The row's id doubles as the client bundle id, so the browser half
+# is served from /plugins/dsh-agent-memory/client.js.
+- insert:
+    - id: dsh-agent-memory
+      name: '@kyle2241345145351324321/dsh-agent-memory'
