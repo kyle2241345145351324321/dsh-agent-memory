@@ -1,8 +1,8 @@
 /**
  * dsh-agent-memory — the browser half.
  *
- * Hand-written client bundle: DSH serves this file verbatim from
- * /plugins/dsh-agent-memory/client.js, so it is authored as the
+ * Hand-written client bundle: DSH serves this file from /plugins/<package>/…,
+ * so it is authored as the
  * `window.__ModuleLoader__.load({ id, factory })` registration the module
  * system expects rather than built by a bundler. Only `react` is required from
  * the module table; everything else is a same-origin fetch to the host half.
@@ -14,7 +14,7 @@
  * rejected write can never leave the page lying about what is stored.
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-agent-memory',
+  id: '@kylefu/dsh-agent-memory',
   factory: (require) => {
     var module = { exports: {} };
     var exports = module.exports;

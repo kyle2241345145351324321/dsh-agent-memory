@@ -4,6 +4,15 @@ All notable changes to `@kyle2241345145351324321/dsh-agent-memory` are
 documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the package follows [Semantic Versioning](https://semver.org/).
 
+## [0.1.1] - 2026-11-13
+
+### Fixed
+
+- The client bundle now registers under the npm package name
+  (`@kylefu/dsh-agent-memory`). DSH keys its client module graph by the
+  package name, so the previous unscoped id made the Settings → Memory page
+  silently disappear after the package was published under the scoped name.
+
 ## [0.1.0] - 2026-11-12
 
 First public release.
@@ -24,3 +33,4 @@ First public release.
   contract, tool definition, host wiring, and the client bundle contract.
 
 [0.1.0]: https://github.com/kyle2241345145351324321/dsh-agent-memory/releases/tag/v0.1.0
+[0.1.1]: https://github.com/kyle2241345145351324321/dsh-agent-memory/releases/tag/v0.1.1

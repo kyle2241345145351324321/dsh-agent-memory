@@ -113,8 +113,8 @@ function loadBundle() {
 
 test('the bundle id and namespace are the stable plugin name, with no hotfix suffix', () => {
   const { registration } = loadBundle();
-  assert.equal(registration.id, 'dsh-agent-memory');
-  assert.match(SOURCE, /id: 'dsh-agent-memory'/);
+  assert.equal(registration.id, '@kylefu/dsh-agent-memory');
+  assert.match(SOURCE, /id: '@kylefu\/dsh-agent-memory'/);
   assert.match(SOURCE, /const NS = 'dsh-agent-memory';/);
   assert.match(SOURCE, /const BASE = '\/dsh-agent-memory';/);
   assert.doesNotMatch(SOURCE, /-v5/);
