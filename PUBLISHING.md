@@ -3,7 +3,9 @@
 套件名稱：`@kylefu/dsh-agent-memory`（npm 帳號 `kylefu`）
 GitHub：`https://github.com/kyle2241345145351324321/dsh-agent-memory`
 分類（Hub）：`memory`
-現況：**0.1.0 已發佈**（2026-11-12）· Hub submission：#757
+現況：**0.1.1 已發佈**（npm latest；0.1.0 deprecated）· **Hub 已收錄並 verified**（2026-11-13）
+Hub 頁面：<https://dsh-plugin.org/zh/plugins/kyle2241345145351324321/dsh-agent-memory>
+送審 issue：<https://github.com/dshplugin/dsh-plugin-hub/issues/757>（已 closed，官方核對通過）
 
 ## 1. 發佈前檢查
 
@@ -88,9 +90,13 @@ git tag v0.1.0 && git push --tags
 ## 5. 送交 DSH Plugin Hub
 
 提交頁：<https://dsh-plugin.org/zh/submit>（English：<https://dsh-plugin.org/submit>）
-本次已用 GitHub issue 形式送出：<https://github.com/dshplugin/dsh-plugin-hub/issues/757>
+已用 GitHub issue 形式送出：<https://github.com/dshplugin/dsh-plugin-hub/issues/757>
 （Hub 的 `plugin_submission.yml` 模板明確說明：repo 要有 `dsh-plugin` topic、分類要用既有 key、
 `package.json.repository` 要對應同一個 owner/repo——這三項都已符合。）
+
+**結果**：2026-11-13 官方核對通過、issue 關閉，目錄已收錄且 `v: verified`。
+目錄的版本標籤有時會落後一個版本（目前條目寫 `v0.1.0`，但安裝指令裝的是 npm `latest` = 0.1.1），
+每日更新後會跟上；若一週後仍是舊版，可再開 issue 或留言。
 
 可沿用的資料：
 

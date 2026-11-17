@@ -4,6 +4,7 @@
 [![license](https://img.shields.io/npm/l/@kylefu/dsh-agent-memory.svg?style=flat-square)](LICENSE)
 [![tests](https://img.shields.io/badge/tests-node%20--test-0e7490?style=flat-square)](test)
 [![GitHub](https://img.shields.io/badge/github-repo-181717?style=flat-square&logo=github)](https://github.com/kyle2241345145351324321/dsh-agent-memory)
+[![Listed on DSH Plugin Hub](https://dsh-plugin.org/badges/listed.svg)](https://dsh-plugin.org/zh/plugins/kyle2241345145351324321/dsh-agent-memory)
 [![DSH](https://img.shields.io/badge/dsh-plugin-4d6bfe?style=flat-square)](https://github.com/deepseek-ai/deepseek-harness)
 
 **給 DeepSeek Harness agent 的長期記憶。** 像 Claude 的記憶一樣：agent 自己把值得記住的事存起來，你在
@@ -147,7 +148,7 @@ client bundle 契約（id / NS / settings.section 註冊）。
 
 ## 發佈 / Plugin Hub
 
-套件已可發佈：`@kylefu/dsh-agent-memory`（scoped、public），分類 `memory`。
+已上架：**DSH Plugin Hub 已收錄並 verified** — [dsh-plugin.org/zh/plugins/kyle2241345145351324321/dsh-agent-memory](https://dsh-plugin.org/zh/plugins/kyle2241345145351324321/dsh-agent-memory)（分類：記憶與上下文）。npm：`@kylefu/dsh-agent-memory`（scoped、public）。
 npm 發佈、GitHub repo、Plugin Hub 送審的完整步驟見 [PUBLISHING.md](PUBLISHING.md)；
 版本紀錄見 [CHANGELOG.md](CHANGELOG.md)。
 
